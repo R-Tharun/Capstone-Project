@@ -78,7 +78,7 @@ This project involves:
 **Tharun R**  
 Aspiring Data Analyst | Python | Visualization | Business Intelligence  
 
-📧 Reach me: [LinkedIn](www.linkedin.com/in/) 
+📧 Reach me: [LinkedIn](www.linkedin.com/in/tharun-ragu) 
 
 ---
 
