@@ -1,0 +1,90 @@
+💬 Loan Transaction Chatbot – AI Powered Insights
+An intelligent chatbot built using Python, Streamlit, and NLP embeddings to instantly answer queries about loan applications — including fraud detection, approval status, and customer segmentation — using rule-based and semantic search.
+
+📌 Overview
+Loan officers and analysts often face delays when extracting specific information from large datasets. This chatbot simplifies that process by offering natural language interaction and automated filtering on the loan dataset.
+
+🚀 Key Features
+🔍 Status Filtering – Instantly view approved, rejected, or fraudulent applications
+
+🧠 Semantic Search – Understands vague/natural language queries
+
+🎯 Conditional Queries – Supports queries like “loan amount > 5 lakhs and cibil score > 700”
+
+📊 Streamlit UI – Clean and user-friendly interface
+
+📁 CSV-Based Storage – Easily scalable and accessible
+
+🧾 Dynamic Filtering – Combines text and numeric filters for accurate answers
+
+🧠 Tech Stack
+Tool	Purpose
+Python	Backend scripting and logic
+Streamlit	Interactive web interface
+SentenceTransformer	NLP embeddings for semantic matching
+Pandas	Data manipulation and filtering
+CSV	Dataset storage
+
+📂 Dataset
+Source: loan_applications.csv
+
+Records: ~50,000 sample entries
+
+Columns Include:
+
+application_id, customer_id, loan_type, loan_status
+
+loan_amount_requested, cibil_score, monthly_income
+
+fraud_flag, applicant_age, gender, etc.
+
+⚙ System Workflow
+Load Dataset & Embeddings
+
+Parse User Query
+
+Apply Filters (Rule-Based / Semantic)
+
+Display Results in Streamlit
+
+🧪 Sample Queries You Can Try
+bash
+Copy
+Edit
+- Show male applications
+- Show female applications and cibil score > 700
+- Show home loan applications and monthly income > 50000
+- How many loans are approved?
+- Show rejected applications with loan amount > 1000000
+🎯 Outcomes
+Enhanced accessibility to loan data without SQL or technical knowledge
+
+Reduced time spent by analysts on manual filtering
+
+Found fraudulent and high-risk cases easily
+
+Delivered a modern AI-based chatbot experience
+
+📎 Files in this Repo
+bash
+Copy
+Edit
+📁 Loan-Transaction-Chatbot/
+├── loan_applications.csv         # Main dataset
+├── embeddings_fast.pkl           # Pre-computed semantic embeddings
+├── loan_chatbot.py               # Streamlit chatbot script
+├── Loan-Transaction-Chatbot-AI-Powered-Insights.pptx  # Project presentation
+├── README.md                     # Project documentation
+🎥 Demo Preview
+📽 Coming soon: Walkthrough video showcasing queries and results.
+
+📌 Future Enhancements
+Voice-based query interaction
+
+Real-time database integration
+
+Visual analytics dashboard for trends
+
+🙌 Credits
+Built with ❤ by R Tharun
+Designed for interactive presentations and real-time analysis
